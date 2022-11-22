@@ -1,0 +1,154 @@
+1 1 1
+1 1 1
+1 1 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[sp89@sciprog practical09]$ gcc main.c -o out
+/tmp/cclBEg7g.o: In function `main':
+main.c:(.text+0x313): undefined reference to `ismagicsquare'
+collect2: error: ld returned 1 exit status
+[sp89@sciprog practical09]$ vim main.c
+[sp89@sciprog practical09]$ gcc main.c -o out
+main.c:69:187: error: expected identifier or '(' before numeric constant
+                                                                                                                                                                                           1,8           Top
+                                                                                                                                                                                           ^
+[sp89@sciprog practical09]$ vim main.c
+[sp89@sciprog practical09]$ gcc main.c -o out
+/tmp/ccLWTeMh.o: In function `main':
+main.c:(.text+0x313): undefined reference to `ismagicsquare'
+collect2: error: ld returned 1 exit status
+[sp89@sciprog practical09]$ touch square.txt
+[sp89@sciprog practical09]$ code square.txt
+-bash: code: command not found
+[sp89@sciprog practical09]$ vim main.c
+[sp89@sciprog practical09]$ touch square.txt
+[sp89@sciprog practical09]$ code square.txt
+-bash: code: command not found
+[sp89@sciprog practical09]$ gcc main.c -o out
+[sp89@sciprog practical09]$ ./out
+Enter file name: magic_square.h
+Number of lines is: 47
+The square is not magic!
+[sp89@sciprog practical09]$ s
+-bash: s: command not found
+[sp89@sciprog practical09]$ ls
+magic_square.h  main.c  out  square.txt
+[sp89@sciprog practical09]$ vim square.txt
+[sp89@sciprog practical09]$ gcc main.c -o out
+[sp89@sciprog practical09]$ ./out
+Enter file name: square.txt
+Number of lines is: 3
+The square is not magic!
+[sp89@sciprog practical09]$ vim magic_square.h
+[sp89@sciprog practical09]$ gcc main.c -o out
+[sp89@sciprog practical09]$ ./out
+Enter file name: square.txt
+Number of lines is: 3
+The square is not magic!
+[sp89@sciprog practical09]$ vim square.txt
+[sp89@sciprog practical09]$ gcc main.c -o out
+[sp89@sciprog practical09]$ ./out
+Enter file name: square.txt  
+Number of lines is: 3
+The square is magic!
+[sp89@sciprog practical09]$ ls
+magic_square.h  main.c  out  square.txt
+[sp89@sciprog practical09]$ vim square.txt
+
+1 1 1
+1 1 1
+1 1 1
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+~                                                                                                                                                                                                           
+"square.txt" 3L, 18C                                                                                                                                                                      3,1           All
